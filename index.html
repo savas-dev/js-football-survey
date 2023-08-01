@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <title>Anket</title>
+  </head>
+  <body>
+    <section id="header">
+      <div class="bg-white text-center py-4">
+        <div class="container">
+          <h2 class="text-danger display-4 my-4">Futbol İlgi Anketi</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="result d-none py-4 bg-white text-center">
+        <div class="container lead">
+            <p>
+                <span class="text-danger display-4 p-3">
+                    %0 
+                </span>
+                futbol ile ilgilisin
+            </p>
+        </div>
+    </section>
+
+    <section id="questions">
+      <div class="bg-secondary py-3">
+        <div class="container">
+          <form class="question-form text-white">
+            <div class="py-4">
+                <p>Bir takım, sahaya kaç kişi çıkar?</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q1"
+                  value="E"
+                  checked
+                />
+                <label class="form-check-label">
+                  11
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q1"
+                  value="H"
+                />
+                <label class="form-check-label">
+                  9
+                </label>
+              </div>
+            </div>
+
+            <div class="py-4">
+                <p>Yedekler kaç kişiden oluşur?</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q2"
+                  value="H"
+                  checked
+                />
+                <label class="form-check-label">
+                  3
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q2"
+                  value="E"
+                />
+                <label class="form-check-label">
+                  7
+                </label>
+              </div>
+            </div>
+
+            <div class="py-4">
+                <p>3 korner sonucunda ne olur?</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q3"
+                  value="H"
+                  checked
+                />
+                <label class="form-check-label">
+                  Penaltı
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q3"
+                  value="E"
+                />
+                <label class="form-check-label">
+                  Yine korner olur
+                </label>
+              </div>
+            </div>
+
+            <div class="py-4">
+                <p>İki sarı kartın cezası nedir?</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q4"
+                  value="H"
+                  checked
+                />
+                <label class="form-check-label">
+                  10 dakikalığına oyundan çıkma
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q4"
+                  value="E"
+                />
+                <label class="form-check-label">
+                  Kırmızı kart
+                </label>
+              </div>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" class="btn btn-light" value="GÖNDER">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="savas.js"></script>
+  </body>
+</html>
